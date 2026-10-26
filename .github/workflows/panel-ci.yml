@@ -18,7 +18,7 @@ on:
 jobs:
   panel:
     name: Panel (Next.js)
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, x64]
 
     defaults:
       run:
